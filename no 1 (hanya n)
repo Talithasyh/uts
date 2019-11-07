@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int n,a;
+    
+    cout << "Masukkan n : ";
+    cin >> n;
+    for(a=0; a<=n; a++){
+        if(a==0){
+            a=a+2;
+            cout<<"F(X) = 1 ";
+        }
+        if(a%2==0){
+            cout << "-1/" << a << " ";
+        }else{
+            cout << "+1/" << a << " ";
+        }
+    }
+}
