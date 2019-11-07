@@ -11,13 +11,13 @@ int main() {
     jumlah=0;
     total=0;
     rumus=-1;
-    for(int x=1; x<=n; x++){
+    for(int a=1; a<=n; a++){
     rumus=(rumus*(-1));
-    total=rumus/x;
+    total=rumus/a;
     jumlah= jumlah + total;
-    if(x==1)
+    if(a==1)
     cout<<"("<<total<<")";
-    if(x>1)
+    if(a>1)
     cout<<"+("<<total<<")";
     }
     cout << "\nHasil perhitungan fungsi : " << jumlah;
